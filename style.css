@@ -71,3 +71,40 @@ a {
   margin-top: 5px;
   display: none;
 }
+
+/* Main */
+main {
+  width: 80%;
+  min-height: 90vh;
+  margin-left: 24.5%;
+  margin-bottom: 100px;
+  background: linear-gradient(to bottom, #242424, #1a1a1a);
+}
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0e0e0e;
+  padding: 14px 30px;
+  position: fixed;
+  width: 100%;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0e0e0e;
+  padding: 14px 30px;
+  position: fixed;
+  width: 100%;
+}
+.topbar .prev-next-buttons button {
+  color: #7a7a7a;
+  cursor: not-allowed;
+  width: 34px;
+  height: 34px;
+  border-radius: 100%;
+  font-size: 18px;
+  border: 0px;
+  background-color: #090909;
+  margin-right: 10px;
+}
